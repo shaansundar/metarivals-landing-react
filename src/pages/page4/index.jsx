@@ -27,16 +27,16 @@ export default function Page4() {
                     {/* <div clasname="flex flex-row w-full items-start justify-start">
             </div> */}
                     <div className='flex flex-wrap items-center mt-4 justify-center md:justify-start w-full px-4'>
-                        <img src={img1} className="w-24 md:w-20 lg:w-24 mb-4 mr-4 z-0" alt="" />
-                        <img src={img2} className="w-24 md:w-20 lg:w-24 mb-4 mr-4 z-0" alt="" />
-                        <img src={img3} className="w-24 md:w-20 lg:w-24 mb-4 mr-4 z-0" alt="" />
+                        <img src={img1} className="w-16 md:w-20 lg:w-24 m-2 z-0" alt="" />
+                        <img src={img2} className="w-16 md:w-20 lg:w-24 m-2 z-0" alt="" />
+                        <img src={img3} className="w-16 md:w-20 lg:w-24 m-2 z-0" alt="" />
                     </div>
                     <div className='flex flex-wrap items-center justify-center md:justify-start w-full px-4'>
-                        <img src={img4} className="w-24 md:w-20 lg:w-24 mb-4 mr-4 z-0" alt="" />
-                        <img src={img5} className="w-24 md:w-20 lg:w-24 mb-4 mr-4 z-0" alt="" />
-                        <img src={img6} className="w-24 md:w-20 lg:w-24 mb-4 mr-4 z-0" alt="" />
+                        <img src={img4} className="w-16 md:w-20 lg:w-24 m-2 z-0" alt="" />
+                        <img src={img5} className="w-16 md:w-20 lg:w-24 m-2 z-0" alt="" />
+                        <img src={img6} className="w-16 md:w-20 lg:w-24 m-2 z-0" alt="" />
                     </div>
-                    <div className='w-full pl-4 flex items-center justify-center md:justify-start'>
+                    <div className='w-full flex items-center justify-center md:justify-start'>
                         <Button name="Sale Coming Soon!" style={{ width: "230px", height: "60px", fontSize: '12px', margin: '10px' }} />
                     </div>
                 </div>

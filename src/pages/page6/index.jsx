@@ -2,8 +2,8 @@ import genericBg from '../../assets/genericBg4.png'
 import hero from '../../assets/v2/gameplan-hero.png'
 export default function Page6() {
     return (
-        <div className="w-full text-white h-screen md:h-[65vw] max-h-[2273px] relative">
-            <div className='hidden w-full h-full lg:flex flex-col absolute items-start z-10 justify-center'>
+        <div className="w-full text-white h-[125vh] md:h-[65vw] max-h-[2273px] relative">
+            <div className='hidden w-full h-full lg:flex flex-col absolute items-start z-10 justify-start'>
                 <div className='w-full px-8 flex items-center justify-center'>
                     <h1 style={{ fontFamily: 'Anton' }} class="lg:text-6xl w-full p-4 italic text-center text-4xl text-transparent bg-clip-text bg-gradient-to-t from-Dark to-Light">Game Plan</h1>
                 </div>

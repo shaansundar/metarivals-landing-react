@@ -5,7 +5,7 @@ import { faTwitter, faInstagram, faFacebookF, faTelegramPlane } from '@fortaweso
 
 export default function Page10() {
     return (
-        <div className="w-full h-[50vh] md:h-[50vw] relative">
+        <div className="w-full h-[80vh] md:h-[50vw] relative">
             <div className='w-full text-white h-full flex flex-col z-10 items-center absolute justify-center'>
                 <h1 style={{ fontFamily: 'Anton' }} class="lg:text-6xl w-full p-4 italic text-center text-4xl text-transparent bg-clip-text bg-gradient-to-t from-Dark to-Light">Contact Us</h1>
                 <h1 class="my-5">Communication is Key</h1>
@@ -41,7 +41,7 @@ export default function Page10() {
                     </div>
                 </div>
             </div>
-            <img src={footerBg} className="absolute w-full overflow-hidden z-0" alt="" />
+            <img src={footerBg} className="absolute bottom-0 w-full overflow-hidden z-0" alt="" />
         </div>
     )
 }
