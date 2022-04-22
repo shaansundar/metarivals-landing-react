@@ -5,17 +5,17 @@ import SOL from '../../assets/solana-sol-logo.svg'
 import LUNA from '../../assets/terra-luna-luna-logo.svg'
 import MATIC from '../../assets/polygon-matic-logo.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitter, faInstagram, faFacebookF, faTelegramPlane } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faInstagram, faFacebookF, faTelegramPlane, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 export default function Page1() {
     return (
-        <div className="w-full h-screen md:h-[65vw] max-h-[2273px] relative">
+        <div id="Page1" className="w-full h-screen md:h-[65vw] max-h-[2273px] relative">
             <div className='w-full h-full flex md:flex-row flex-col absolute items-start z-10 justify-center'>
                 <div className='md:w-3/5 w-full h-1/2 md:h-[60vw]'></div>
                 <div className='md:w-2/5 w-full h-1/2 md:h-[60vw] flex flex-col items-center md:items-start justify-center text-white'>
                     <h1 class="text-6xl md:text-3xl lg:text-6xl"><b>Meta</b>Rivals</h1>
-                    <p class="lg:text-4xl md:text-2xl text-4xl text-center md:text-left mt-2 lg:mt-4">
-                        First <b>Crypto <h1 class="text-Gold inline">Rivalry <br /> Game</h1></b> Based on <br /> Crypto
+                    <p class="lg:text-4xl  md:text-2xl text-4xl text-center md:text-left mt-2 lg:mt-4">
+                        First <b>Metaverse <h1 class="text-Gold inline">Crypto <br /> Rivalry Game</h1></b> Based on <br /> Coin
                         Avatars
                     </p>
                     <div class="flex w-full my-4 md:my-2 lg:my-4 items-center text-left justify-center md:justify-start">
@@ -33,10 +33,11 @@ export default function Page1() {
                         Backed by <h1 class="text-Gold inline">100k Strong</h1> Community Members
                     </h1>
                     <div class="mt-4">
-                    <FontAwesomeIcon className='m-2 text-2xl md:text-lg lg:text-2xl' icon={faTelegramPlane} />
-                    <FontAwesomeIcon className='m-2 text-2xl md:text-lg lg:text-2xl' icon={faTwitter} />
-                    <FontAwesomeIcon className='m-2 text-2xl md:text-lg lg:text-2xl' icon={faInstagram} />
-                    <FontAwesomeIcon className='m-2 text-2xl md:text-lg lg:text-2xl' icon={faFacebookF} />
+                    <a href="https://t.me/MetaRivals"><FontAwesomeIcon className='hover:scale-110 transition-all m-2 text-2xl md:text-lg lg:text-2xl' icon={faTelegramPlane} /></a>
+                    <a href="https://twitter.com/RealMetaRivals"><FontAwesomeIcon className='hover:scale-110 transition-all m-2 text-2xl md:text-lg lg:text-2xl' icon={faTwitter} /></a>
+                    <a href="https://instagram.com/meta_rivals/"><FontAwesomeIcon className='hover:scale-110 transition-all m-2 text-2xl md:text-lg lg:text-2xl' icon={faInstagram} /></a>
+                    <a href="https://facebook.com/MetaRivals"><FontAwesomeIcon className='hover:scale-110 transition-all m-2 text-2xl md:text-lg lg:text-2xl' icon={faFacebookF} /></a>
+                    <a href="https://www.youtube.com/channel/UC2rkPFlYatISUZvDUDsmqyA"><FontAwesomeIcon className='hover:scale-110 transition-all m-2 text-2xl md:text-lg lg:text-2xl' icon={faYoutube} /></a>
                     </div >
                 </div >
             </div >
